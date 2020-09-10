@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pro.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <title>Profile</title>
+    <style>
+        *{
+            margin: 0; padding: 0; font-family: 'Josefin Sans', sans-serif;
+        }
+        </style>
+</head>
+<body>
+
+
+    <!--navbar-->
+    <header class="mb-5">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light    bg-light pl-5 pr-5">
+            <a class="navbar-brand" href="Home.html">Memez</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="ml-auto w-50">
+                <form class="form-inline my-2 my-lg-0 ml-5">
+                    <input class="form-control mr-sm-2 col-lg-10 col-md-12 col-12" type="search" placeholder="Search Memer here.." aria-label="Search">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </div>
+              <ul class="navbar-nav ml-auto ">
+                  <li class="nav-item pl-2 pr-1">
+                    <div class="avatar text-center m-1" id="status">
+                      <a href="profile.html" ><img src="images/avatar.png" alt="profile" class="avatar rounded-circle img-fluid shadow" height="30px" width="30px" ></a>
+                  </div>
+                    </li>
+                  <li class="nav-item pl-2 pr-2">  
+                    <a class="nav-link" href="index.html"  role="button">Home</a>
+                  </li>
+                  <li class="nav-item pl-2 pr-2">
+                    <a class="nav-link" href="#" role="button">Trending</a>
+                  </li>
+                  <li class="nav-item pl-2 pr-2">
+                    <a class="nav-link" href="#" role="button"><i class="fas fa-bell fa-lg"></i></a>
+                  </li>
+                  <li class="nav-item pl-2 pr-2">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li>
+                    <a class="btn btn-outline-success" href="login.html">Login</a>
+                  </li>
+                </ul>
+            </div>
+            <hr>
+          </nav>
+    </header>
+
+
+    <!--top space -->
+<section class="mb-0">
+    
+
+</section>
+    <!--top-->
+    <!--profile top-->
+    <section class="bg-light profile-top container-fluid w-100 mx-auto">
+    <!--new one -->
+    <div class="wall-art container-fluid align-center mx-auto p-3" >
+        <div class="main-art text-center p-0 fixed" >
+            <img class="img-art" src="images/art3.jpg" alt="Avatar">
+        </div>
+        <div class="pro-art text-center p-0 fixed" >
+            <img class="img-pro" src="images/avatar.png" alt="Avatar">
+        </div>
+      </div>
+        <div class="container  w-50 text-center" >
+          <h4><b>Hyno .Inc</b></h4>
+        </div>
+        
+        <!--follow and following-->
+        <div class="bg-light pro-list container-fluid w-50 ">
+          <ul class="uu">
+            <li class="ll">12 Post</li>
+            <li class="ll">1k Followers</li>
+            <li class="ll">0 Following</li>
+            <a href="edit.html"class="ll btn btn-outline-primary">Edit Profile</a> 
+            <a href="#demo" class="btn btn-primary" data-toggle="collapse">Info </a>
+  <div id="demo" class="collapse">
+    Paras Rawat
+    22 nov
+    code
+  </div>
+            
+          </ul>
+        </div>
+
+    </section>
+
+  <hr class="bg mx-auto container-fluid w-50">
+<section>
+    <!-- Nav tabs -->
+    <div class= "container-fluid w-50 sm-nav">
+
+      <ul class="nav sm-nav-tabs ">
+        <li class="nav-item">
+          <a class="nav-link text-dark active" data-toggle="tab" href="#Memes">Memes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" data-toggle="tab" href="#Tagged">Tagged</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-dark" data-toggle="tab" href="#Saved">Saved</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#">More</a>
+      <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Memer</a>
+          <a class="dropdown-item" href="#">Normi</a>
+          <a class="dropdown-item" href="#">Dank</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+    
+    <!-- Tab panes -->
+    <div class="tab-content">
+    <div class="tab-pane container active" id="Memes">
+      <!--Gallary-->
+<section>
+  <div class="container">
+      <h3 class="text-center text-capitalize pt-2">Memes</h3  >
+      <hr class="w-25 mx-auto pb-1">
+
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+</div>
+
+</section>
+    </div>
+    <div class="tab-pane container fade" id="Tagged">
+      <!--Gallary-->
+<section>
+  <div class="container">
+    <h3 class="text-center text-capitalize pt-2">Tagged</h3>
+    <hr class="w-25 mx-auto pb-1">
+
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/a.jpg" alt="ass" class="img-fluid">
+  </div>
+</div>
+
+</section>
+    </div>
+    <div class="tab-pane container fade" id="Saved">
+      <!--Gallary-->
+<section>
+  <div class="container">
+    <h3 class="text-center text-capitalize pt-2">Saved</h3>
+    <hr class="w-25 mx-auto pb-1">
+
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/art1.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/art2.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/art1.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/art3.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/art1.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/art1.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/art2.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/art2.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/art2.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/art1.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/art1.jpg" alt="ass" class="img-fluid">
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+<img src="images/art1.jpg" alt="ass" class="img-fluid">
+  </div>
+</div>
+
+</section>
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>

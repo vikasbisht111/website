@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <title>Trending</title>
+    <style>
+        *{
+            margin: 0; padding: 0; font-family: 'Josefin Sans', sans-serif;
+        }
+        </style>
+</head>
+<body>
+
+
+    <!--top navbar-->
+    <header class="mb-5">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light  bg-light pl-5 pr-5 shadow-sm">
+            <a class="navbar-brand" href="Home.html">Memez</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="ml-auto w-50">
+                <form class="form-inline my-2 my-lg-0 ml-5">
+                    <input class="form-control mr-sm-2 col-lg-10 col-md-12 col-12" type="search" placeholder="Search Memer here.." aria-label="Search">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </div>
+              <ul class="navbar-nav ml-auto ">
+                  <li class="nav-item pl-2 pr-1">
+                    <div class="avatar text-center m-1" id="status">
+                      <a href="profile.html" ><img src="images/avatar.png" alt="profile" class="avatar rounded-circle img-fluid shadow" height="30px" width="30px" ></a>
+                  </div>
+                    </li>
+                  <li class="nav-item pl-2 pr-2">
+                    <a class="nav-link" href="#"  role="button">Home</a>
+                  </li>
+                  <li class="nav-item pl-2 pr-2">
+                    <a class="nav-link" href="trending.html" role="button">Trending</a>
+                  </li>
+                  <li class="nav-item pl-2 pr-2">
+                    <a class="nav-link" href="notification.html" role="button"><i class="fas fa-bell fa-lg"></i></a>
+                  </li>
+                  <li class="nav-item pl-2 pr-2">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li>
+                    <a class="btn btn-outline-success" href="login.html">Login</a>
+                  </li>
+                </ul>
+            </div>
+            <hr>
+          </nav>
+    </header>
+
+
+
+    <!--top -->
+    <section>
+        <div class="top-pad container mb-0 pt-1">
+          <div class="align-center pt-2">
+            <h1 class="pad-text text-center text-light text-capitalize pt-5 w-100 bg-warning ">Trending</h1>
+            <hr class="w-25 mx-auto pb-5">
+          </div>
+
+            <!--card main-->
+            <section class="mt-5 mb-5 col-lg-6 col-md-8 col-12 mx-auto bg-light"></section> 
+  <div class="card mt-5 mb-5 mx-auto container p-2 shadow-sm pr-5" style="width:650px" >
+      <div class="info bg-light pd-2 pb-3">
+        <div class="avatar">
+          <img src="images/avatar.png" alt="profile" class="avatar rounded-circle img-fluid bg-dark" height="40px" width="40px" >
+          <a href="" class=" text-dark">Paras Rawat</a><a href="#" class="text-primary pt-2 pr-2 float-right">Follow</a>
+        </div>
+      </div>
+      <img class="card-img-top img-fluid" src="images/avatar.png" alt="Card image">
+      <div class="card-body">
+        <p class="card-text bg-light">Some example text.</p>
+        <div class=" w-100 mx-auto text-center btn btn-toggle" data-toggle="buttons">
+            <a href="javascript:void();" id="funny1" class="funny1 btn btn-outline-warning mr-5 " >Funny</a>
+            <a href="javascript:void();" class="funny2 btn btn-outline-primary mr-5 ml-5">Compliment</a>
+            <a href="javascript:void();" class="funny3 btn btn-outline-success ml-5">Share</a>              
+        </div>
+      </div>
+      <div class="form-group">          
+        <input type="comment" class="form-control" placeholder="comment..." id="comment" autocomplete="off">
+      </div>
+    </div>
+            </div>
+            </section>
+
+</body>
+</html>
